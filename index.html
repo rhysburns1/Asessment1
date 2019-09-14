@@ -1,109 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Rhys Burns - Personal Profile</title>
-
-<meta charset="utf-8">
+<title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 20px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: center;
-  width: 30%;
-  height: 100px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
-</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-	<header>
-<h1>Rhys Burns - Personal Profile</h1>
-</header>
 
-<section>
-  <nav>
-    <ul>
-     <a href="#">Interest in IT</a> <a href="#">Ideal Job</a> <a href="#">Personal Profile</a> <a href="#">Project Idea</a> 
-    </ul>
-  </nav>
-<br>
-<a href="https://imgur.com/DgcCcSa"><img src="https://i.imgur.com/DgcCcSa.jpg" title="source: imgur.com" width="200" height="200"/></a>
-    <p><b>Name:</b> Rhys Burns</p>
-    <p><b>Student Number:</b> S3815633</p>
-    <p><b>Email:</b> S3815633@student.rmit.edu.au</p>
-<br>
-    <p>Mixed heritage, mainly Central European (German, English, Irish), but when asked I always say I am Australian.</p>
-<p></p>
-    <p>I can speak basic conversational Korean, I lived and worked in South Korea for 12 months. I can speak some Italian and understand Italian very well, my Fiancé is Italian and a native speaker.</p>
-<p></p>
-    <p>I finished high school in 2010 and finished first in ICT for both year 11 and year 12. I completed a certificate III and IV in IT/IT (Networking) during a 24-month Traineeship, I also completed various Microsoft foundation courses. I have completed numerous vendor specific qualifications and have recently completed my Diploma in IT (Networking) in January this year. </p>
-<p></p>
-    <p>I have a huge love for travelling and enjoy seeing different parts of the world. I love experiencing local cuisine and am not afraid to try something new in every city or country I’ve been too.</p>
-<br>
-</p>
-<footer>
-  <p>Footer</p>
-</footer>
+<div class="w3-container">
+<h2>Responsive Navigation Bars</h2>
+
+<p>The <strong>w3-mobile</strong> class defines responsive elements.</p>
+<p>On medium and large screens (tablets and desktops), the bar items will appear side by side horizontally. On smalls screens (smartphones), the items are vertically and centered:</p>
+<p><strong>Resize the browser window to see the effect.</strong></p>
+
+<p>Default navigation bar:</p>
+<div class="w3-bar w3-black">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+
+<p>Responsive navigation bar:</p>
+<div class="w3-bar w3-black">
+  <a href="#" class="w3-bar-item w3-button w3-mobile">Home</a>
+  <a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button w3-mobile">Link 3</a>
+</div>
+</div>
+
 </body>
 </html>
-
-
-
-
-
-
