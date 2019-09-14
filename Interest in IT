@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rhys Burns - Interest in IT</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: center;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<div class="w3-container">
+<body>
+	<header>
+<h1>Interest in IT</h1>
+</header>
+
+<section>
+<nav>
+<div class="w3-bar w3-black">
+<a href="https://rhysburns1.github.io/Asessment1/" class="w3-bar-item w3-button">Personal Information</a>	<a href="https://rhysburns1.github.io/Asessment1/Interest in IT" class="w3-bar-item w3-button">Interest in IT</a>	<a href="#" class="w3-bar-item w3-button">Idea Job</a>	<a href="#" class="w3-bar-item w3-button">Peronality Profile</a>	<a href="#" class="w3-bar-item w3-button">Project Idea</a>
+</div>
+  </nav>
+<br>
+<p>I’ve had an interest in IT since I was about 11-12 years old. My grandparents got a computer, and at the time it was top of the line and cost them a lot of money. I would use it almost every day to play WoW and Runescape, and eventually after I gave both of those up, I turned to playing real time strategy games instead. As I was getting older and had a part time job, I decided that I’d try my hand at building a PC and with the help of a family friend who was nice enough to give me a few parts, I was able to build my computer.</p>
+<br>
+<p>In my spare time, I run a small online community that offers support to new PC gamers, by providing advice and assistance with anything related to online gaming. I’ve built this off Discord and have had a lot of success in providing members with the help and support they need over the last few years.</p>
+<br>
+<p>At this time, I am working in IT, specifically as a Network Security Administrator. I started my career as a Level 1 Support Technician and progressed to a Level 2 Support Technician in the same company. I left this role and started a role as a Level 1 Data Centre (DC) Support Specialist, then a Level 2 DC Support Specialist and finally a Level 3 DC Support Specialist. I left my career for 12 months to travel, and upon my return, applied for a role in the same company I had left 12 months prior, as a Level 1 Network Security Administrator.</p>
+<br>
+</p>
+<footer>
+  <p>Making crappy websites since 2019</p>
+</footer>
+</body>
+</html>
